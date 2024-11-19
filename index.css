@@ -48,13 +48,13 @@ body{
     font-family: robo;
 }
 .nav-divs{
-    width:33%;
+    width:25%;
 }
 .navdiv{
     height:13vh;
 }
 .logo{
-    right:90px;
+    width:90%
 }
 .navlinksdiv{
     height:6vh;
@@ -62,6 +62,7 @@ body{
 }
 .navlinkfami{
     font-family: robo;
+    font-size: 1vw;
     border-radius: 50px;
     color: black;
 }
@@ -112,6 +113,7 @@ body{
 }
 .hero-order{
     border-radius: 50px;
+    border:none;
     height:6vh;
     width:10vw;
     font-size: 1.4vw;
@@ -127,7 +129,7 @@ body{
    
    @keyframes pulse512 {
     0% {
-     box-shadow: 0 0 0 0 #05bada66;
+     box-shadow: 0 0 0 0 #111f3c;
     }
    
     70% {
@@ -138,6 +140,38 @@ body{
      box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
    }
+
+
+   .hero-order2{
+    border-radius: 50px;
+    border:none;
+    height:6vh;
+    width:10vw;
+    font-size: 1.4vw;
+    font-family: fami;
+    background-color: #111f3c;
+}
+.hero-order2:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse5121 1.5s infinite;
+   }
+   
+   @keyframes pulse5121 {
+    0% {
+     box-shadow: 0 0 0 0 #fff;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
 
 
 .banner{
@@ -265,49 +299,7 @@ body{
 /* applestore btn code */
 
 /* From Uiverse.io by Yaya12085 */ 
-.playstore-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #000;
-    border-radius: 9999px;
-    background-color: rgba(0, 0, 0, 1);
-    padding: 0.625rem 1.5rem;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    outline: 0;
-    transition: all 0.2s ease;
-    text-decoration: none;
-  }
-  
-  .playstore-button:hover {
-    background-color: white;
-    color: rgba(0, 0, 0, 1);
-  }
-  
-  .icon {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
-  
-  .texts {
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    line-height: 1;
-  }
-  
-  .text-1 {
-    margin-bottom: 0.25rem;
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-  
-  .text-2 {
-    font-weight: 600;
-  }
-  
+
 
 
 
@@ -316,10 +308,11 @@ body{
   /* From Uiverse.io by DhogMiT10 */ 
 .playstore-button {
     display: inline-flex;
+    /* width:12vw; */
     align-items: center;
     justify-content: center;
     border: 2px solid #fff;
-    border-radius: 10px;
+    border-radius: 999px;
     background-color: rgba(0, 0, 0, 1);
     padding: 0.625rem 1.5rem;
     text-align: center;
@@ -363,8 +356,8 @@ body{
   /* facebook button */
 /* From Uiverse.io by vinodjangid07 */ 
 .buttonf {
-    width: 45px;
-    height: 45px;
+    width: 37px;
+    height: 37px;
     background-color: #3b5998;
     border: none;
     border-radius: 50%;
@@ -427,8 +420,8 @@ body{
 .Btnl {
     border: none;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 37px;
+    height: 37px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -478,8 +471,8 @@ body{
 .Btni {
     border: none;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 37px;
+    height: 37px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -533,8 +526,8 @@ body{
   .Btny {
     border: none;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 37px;
+    height: 37px;
     display: flex;
     align-items: center;
     justify-content: center;
